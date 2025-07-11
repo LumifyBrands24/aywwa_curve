@@ -1,0 +1,248 @@
+body {
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    background: #18120c;
+    margin: 0;
+    padding: 0;
+    color: #f5e9d7;
+}
+header {
+    text-align: center;
+    background: #23180f;
+    padding: 2rem 1rem 1rem 1rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    position: relative;
+}
+.logo-bg {
+    display: inline-block;
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 60% 40%, #ffd700 0%, #b77b2b 60%, #23180f 100%);
+    box-shadow: 0 6px 32px 0 rgba(255,215,0,0.18), 0 2px 16px 0 rgba(36,24,12,0.18);
+    margin: 0 auto 1.2rem auto;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+header img {
+    display: block;
+    position: static;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0;
+    margin: 0;
+    background: transparent;
+}
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+.menu-section {
+    margin-bottom: 2.5rem;
+    background: #23180f;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+    padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+}
+.menu-section h2 {
+    border-bottom: 1.5px solid #b77b2b;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    color: #ffd700;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.menu-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.menu-card {
+    background: rgba(36, 24, 12, 0.95);
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.22);
+    padding: 1.5rem 1.2rem;
+    flex: 1 1 250px;
+    min-width: 220px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.15s, box-shadow 0.15s;
+    border: 1.5px solid #3a2a18;
+    backdrop-filter: blur(2px);
+}
+.menu-card:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 6px 24px rgba(183,123,43,0.18);
+    border-color: #b77b2b;
+}
+.menu-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: #ffd700;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+.menu-card .price {
+    font-weight: bold;
+    color: #ffb300;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+.menu-card .details {
+    font-size: 0.98rem;
+    color: #e0cba8;
+    margin-bottom: 0.5rem;
+}
+footer {
+    text-align: center;
+    padding: 1.5rem 0 1rem 0;
+    background: #23180f;
+    color: #b7a07a;
+    font-size: 0.95rem;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+}
+/* Combo Offer Special Styling */
+.combo-offer-section {
+    background: #2d1c0b;
+    border: 2.5px solid #ffd700;
+    border-radius: 20px;
+    padding: 2.2rem 1.2rem 1.7rem 1.2rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 8px 36px rgba(255,215,0,0.10);
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.combo-offer-section h2 {
+    color: #ffd700;
+    font-size: 2.1rem;
+    margin-bottom: 1.2rem;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 12px #3a2a18;
+    font-weight: 700;
+}
+.combo-offer-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.combo-offer-card {
+    background: rgba(36, 24, 12, 0.98);
+    border: 1.5px solid #ffd700;
+    border-radius: 16px;
+    padding: 1.7rem 1.3rem;
+    min-width: 220px;
+    max-width: 270px;
+    box-shadow: 0 2px 18px rgba(255,215,0,0.10);
+    font-size: 1.18rem;
+    color: #f5e9d7;
+    font-weight: 600;
+    position: relative;
+    transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+    backdrop-filter: blur(2px);
+}
+.combo-offer-card:hover {
+    transform: scale(1.04) rotate(-1deg);
+    box-shadow: 0 8px 32px rgba(255,215,0,0.18);
+    border-color: #b77b2b;
+}
+.combo-offer-card .price {
+    color: #ffd700;
+    font-size: 1.3rem;
+    margin-top: 0.7rem;
+    font-weight: bold;
+}
+.combo-offer-card .details {
+    color: #e0cba8;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+}
+#menu-nav {
+    margin: 1.2rem 0 1.8rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #23180f;
+    padding: 0.5rem 0 0.7rem 0;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+.nav-labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    justify-content: center;
+}
+.nav-label {
+    display: inline-block;
+    padding: 0.45em 1.2em;
+    border-radius: 1.2em;
+    background: #18120c;
+    color: #ffd700;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    border: 1.5px solid #ffd700;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, border-color 0.15s, box-shadow 0.15s;
+    box-shadow: 0 1px 6px rgba(255,215,0,0.08);
+    outline: none;
+    user-select: none;
+}
+.nav-label:hover, .nav-label.active {
+    background: #ffd700;
+    color: #23180f;
+    border-color: #b77b2b;
+    box-shadow: 0 2px 12px rgba(255,215,0,0.18);
+}
+.faham-group {
+    margin-bottom: 2.2rem;
+    background: rgba(36, 24, 12, 0.92);
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.13);
+    padding: 1.2rem 1rem 1.1rem 1rem;
+    border: 1.5px solid #ffd700;
+}
+.faham-group h3 {
+    color: #ffd700;
+    font-size: 1.18rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem 0;
+    letter-spacing: 1px;
+}
+.faham-group .details {
+    color: #e0cba8;
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+}
+.faham-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+.faham-table th, .faham-table td {
+    padding: 0.5em 0.7em;
+    text-align: center;
+    font-size: 1.05rem;
+    border-bottom: 1px solid #b77b2b;
+}
+.faham-table th {
+    color: #ffd700;
+    font-weight: 600;
+    background: #23180f;
+    border-radius: 6px 6px 0 0;
+}
+.faham-table td {
+    color: #f5e9d7;
+    background: #18120c;
+    font-weight: 500;
+} 
