@@ -4,7 +4,7 @@
       "name": "Combo Offer",
       "special": true,
       "items": [
-        { "name": "Family Combo (5 Shawarma)", "price": 400, "details": "5 Shawarma wraps for the family." },
+        { "name": "Family Combo (5 Shawarma)", "price": 40, "details": "5 Shawarma wraps for the family." },
         { "name": "Students Combo (1 Mini Shawarma + 1 Cocktail)", "price": 89, "details": "1 mini shawarma and 1 cocktail." },
         { "name": "Couple Combo (2 Shawarma + 2 Sharjah)", "price": 250, "details": "2 shawarma and 2 Sharjah drinks." },
         { "name": "Mini Shawarma", "price": 49, "details": "A single mini shawarma wrap." },
