@@ -43,7 +43,7 @@
         { "name": "Arabic", "details": "Arabic style grilled chicken.", "variants": [ { "portion": "QTR", "price": 120 }, { "portion": "HALF", "price": 240 }, { "portion": "CHEST", "price": 129 }, { "portion": "FULL", "price": 450 } ] },
         { "name": "Kanthari", "details": "Kanthari style grilled chicken.", "variants": [ { "portion": "QTR", "price": 139 }, { "portion": "HALF", "price": 259 }, { "portion": "CHEST", "price": 149 }, { "portion": "FULL", "price": 470 } ] },
         { "name": "Pepper", "details": "Pepper style grilled chicken.", "variants": [ { "portion": "QTR", "price": 139 }, { "portion": "HALF", "price": 259 }, { "portion": "CHEST", "price": 149 }, { "portion": "FULL", "price": 470 } ] },
-        { "name": "Peri-Peri", "details": "Peri-Peri style grilled chicken.", "variants": [ { "portion": "QTR", "price": 129 }, { "portion": "HALF", "price": 249 }, { "portion": "CHEST", "price": 139 }, { "portion": "FULL", "price": 460 } ] },
+        { "name": "Peri-Peri", "details": "Peri-Peri style grilled chicken.", "variants": [ { "portion": "QTR", "price": 129 }, { "portion": "HALF", "price": 249 }, { "portion": "CHEST", "price": 139 }, { "portion": "FULL", "price": 460 } ] }
       ]
     },
     {
