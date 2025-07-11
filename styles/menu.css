@@ -203,6 +203,12 @@ footer {
     border-color: #b77b2b;
     box-shadow: 0 2px 12px rgba(255,215,0,0.18);
 }
+
+a {
+    text-decoration: None;
+    color: white;
+}
+
 .faham-group {
     margin-bottom: 2.2rem;
     background: rgba(36, 24, 12, 0.92);
