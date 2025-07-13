@@ -18,10 +18,10 @@
         { "name": "Shawarma Roll", "price": 80, "details": "Classic chicken shawarma roll." },
         { "name": "Shawarma Roll with Cheese", "price": 90, "details": "Shawarma roll with melted cheese." },
         { "name": "Spicy Shawarma Roll", "price": 90, "details": "Shawarma roll with spicy sauce." },
-        { "name": "Rumali Spicy Shawarma", "price": 150, "details": "Spicy shawarma in rumali roti." },
-        { "name": "Rumali Shawarma with Cheese", "price": 130, "details": "Rumali shawarma with cheese." },
-        { "name": "Shawarma Plate", "price": 130, "details": "Shawarma served on a plate." },
-        { "name": "Spicy Shawarma Plate", "price": 150, "details": "Spicy shawarma served on a plate." },
+        { "name": "Rumali Spicy Shawarma", "price": 100, "details": "Spicy shawarma in rumali roti." },
+        { "name": "Rumali Shawarma with Cheese", "price": 120, "details": "Rumali shawarma with cheese." },
+        { "name": "Shawarma Plate", "price": 110, "details": "Shawarma served on a plate." },
+        { "name": "Spicy Shawarma Plate", "price": 120, "details": "Spicy shawarma served on a plate." },
         { "name": "Bun Shawarma (Small)", "price": 29, "details": "Small bun shawarma." },
         { "name": "Bun Shawarma (Large)", "price": 59, "details": "Large bun shawarma." }
       ]
@@ -40,12 +40,10 @@
     {
       "name": "Al-Faham",
       "items": [
-        { "name": "Arabic", "details": "Arabic style grilled chicken.", "variants": [ { "portion": "QTR", "price": 140 }, { "portion": "HALF", "price": 249 }, { "portion": "CHEST", "price": 159 }, { "portion": "FULL", "price": 489 } ] },
-        { "name": "Kanthari", "details": "Kanthari style grilled chicken.", "variants": [ { "portion": "QTR", "price": 149 }, { "portion": "HALF", "price": 289 }, { "portion": "CHEST", "price": 169 }, { "portion": "FULL", "price": 549 } ] },
-        { "name": "Pepper", "details": "Pepper style grilled chicken.", "variants": [ { "portion": "QTR", "price": 149 }, { "portion": "HALF", "price": 289 }, { "portion": "CHEST", "price": 169 }, { "portion": "FULL", "price": 549 } ] },
-        { "name": "Peri-Peri", "details": "Peri-Peri style grilled chicken.", "variants": [ { "portion": "QTR", "price": 149 }, { "portion": "HALF", "price": 289 }, { "portion": "CHEST", "price": 169 }, { "portion": "FULL", "price": 549 } ] },
-        { "name": "Malik Special", "details": "Malik Special grilled chicken.", "variants": [ { "portion": "QTR", "price": 159 }, { "portion": "HALF", "price": 299 }, { "portion": "CHEST", "price": 189 }, { "portion": "FULL", "price": 569 } ] },
-        { "name": "Mexican Cheese", "details": "Mexican Cheese grilled chicken.", "variants": [ { "portion": "QTR", "price": 169 }, { "portion": "HALF", "price": 299 }, { "portion": "CHEST", "price": 189 }, { "portion": "FULL", "price": 570 } ] }
+        { "name": "Arabic", "details": "Arabic style grilled chicken.", "variants": [ { "portion": "QTR", "price": 120 }, { "portion": "HALF", "price": 240 }, { "portion": "CHEST", "price": 129 }, { "portion": "FULL", "price": 450 } ] },
+        { "name": "Kanthari", "details": "Kanthari style grilled chicken.", "variants": [ { "portion": "QTR", "price": 139 }, { "portion": "HALF", "price": 259 }, { "portion": "CHEST", "price": 149 }, { "portion": "FULL", "price": 470 } ] },
+        { "name": "Pepper", "details": "Pepper style grilled chicken.", "variants": [ { "portion": "QTR", "price": 139 }, { "portion": "HALF", "price": 259 }, { "portion": "CHEST", "price": 149 }, { "portion": "FULL", "price": 470 } ] },
+        { "name": "Peri-Peri", "details": "Peri-Peri style grilled chicken.", "variants": [ { "portion": "QTR", "price": 129 }, { "portion": "HALF", "price": 249 }, { "portion": "CHEST", "price": 139 }, { "portion": "FULL", "price": 460 } ] }
       ]
     },
     {
@@ -62,7 +60,8 @@
         { "name": "Apple Juice", "price": 79, "details": "Fresh apple juice." },
         { "name": "Pineapple Juice", "price": 49, "details": "Fresh pineapple juice." },
         { "name": "Anaar Juice", "price": 120, "details": "Fresh mango juice." },
-        { "name": "Carrot Juice", "price": 59, "details": "Fresh carrot juice." }
+        { "name": "Carrot Juice", "price": 59, "details": "Fresh carrot juice." },
+        { "name": "Waer melon Juice", "price": 39, "details": "Fresh waer melon juice." }
       ]
     },
     {
@@ -78,12 +77,12 @@
       "items": [
         { "name": "Sharjah Milk Shake", "price": 30, "details": "Popular Sharjah milk shake." },
         { "name": "Special Sharjah Milk Shake", "price": 59, "details": "Popular Sharjah milk shake." },
-        { "name": "Chocolate Shake", "price": 99, "details": "Rich chocolate milkshake." },
-        { "name": "Vanilla Shake", "price": 89, "details": "Classic vanilla milkshake." },
-        { "name": "Strawberry Shake", "price": 99, "details": "Fresh strawberry milkshake." },
-        { "name": "Oreo Shake", "price": 119, "details": "Oreo cookie milkshake." },
-        { "name": "Mango Shake", "price": 109, "details": "Fresh mango milkshake." },
-        { "name": "Banana Shake", "price": 89, "details": "Banana milkshake." }
+        { "name": "Chocolate Shake", "price": 59, "details": "Rich chocolate milkshake." },
+        { "name": "Vanilla Shake", "price": 59, "details": "Classic vanilla milkshake." },
+        { "name": "Strawberry Shake", "price": 69, "details": "Fresh strawberry milkshake." },
+        { "name": "Oreo Shake", "price": 59, "details": "Oreo cookie milkshake." },
+        { "name": "Mango Shake", "price": 59, "details": "Fresh mango milkshake." },
+        { "name": "Banana Shake", "price": 49, "details": "Banana milkshake." }
       ]
     }
   ]
