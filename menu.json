@@ -392,44 +392,38 @@
       "name": "Falooda",
       "items": [
         {
-          "name": "Mix Ice Cream Falooda",
-          "price": 50,
+          "name": "Classic Falooda",
+          "price": 99,
           "details": "",
           "hidden": false
         },
         {
-          "name": "Butter Scotch Falooda",
-          "price": 70,
+          "name": "Mini Falooda",
+          "price": 69,
           "details": "",
           "hidden": false
         },
         {
           "name": "Chocolate Falooda",
-          "price": 80,
+          "price": 129,
           "details": "",
           "hidden": false
         },
         {
-          "name": "Royal Falooda",
-          "price": 70,
-          "details": "",
-          "hidden": false
-        },
-        {
-          "name": "Malai Falooda",
-          "price": 70,
+          "name": "Rainbow Falooda",
+          "price": 169,
           "details": "",
           "hidden": false
         },
         {
           "name": "Black Current Falooda",
-          "price": 90,
+          "price": 149,
           "details": "",
           "hidden": false
         },
         {
           "name": "Special Falooda",
-          "price": 100,
+          "price": 139,
           "details": "",
           "hidden": false
         }
