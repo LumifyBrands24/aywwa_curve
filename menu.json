@@ -6,7 +6,7 @@
       "items": [
         {
           "name": "Family Combo (5 Shawarma)",
-          "price": 400,
+          "price": 399,
           "details": "5 Shawarma wraps for the family."
         },
         {
@@ -16,23 +16,23 @@
         },
         {
           "name": "Couple Combo (2 Shawarma + 2 Sharjah)",
-          "price": 250,
+          "price": 249,
           "details": "2 shawarma and 2 Sharjah drinks."
         },
         {
-          "name": "Mini Shawarma",
-          "price": 49,
-          "details": "A single mini shawarma wrap."
+          "name": "Burger Combo",
+          "price": 149,
+          "details": "1 chicken burger and 1 fries (small) and 1 sharjah shake"
         },
         {
-          "name": "Sharjah",
-          "price": 30,
-          "details": "Sharjah drink."
+          "name": "Shawarma Combo",
+          "price": 129,
+          "details": "1 chicken shawarma and 1 fries and 1 grape juice"
         },
         {
-          "name": "French Fries & Lime",
-          "price": 79,
-          "details": "French fries and lime drink."
+          "name": "Strip fries & Cocktail",
+          "price": 139,
+          "details": "Strip loaded fries and cocktail drink."
         }
       ]
     },
@@ -40,90 +40,77 @@
       "name": "Shawarma",
       "items": [
         {
-          "name": "Shawarma Roll",
-          "price": 80,
-          "details": "Classic chicken shawarma roll."
+          "name": "Mini Shawarma",
+          "details": "Classic mini shawarma",
+          "hidden": false,
+          "variants": [
+            {
+              "portion": "Roll",
+              "price": 49
+            }
+          ]
         },
         {
-          "name": "Shawarma Roll with Cheese",
-          "price": 100,
-          "details": "Shawarma roll with melted cheese."
+          "name": "Normal Shawarma",
+          "details": "Classic chicken shawarma roll.",
+          "variants": [
+            {
+              "portion": "Roll",
+              "price": 79
+            },
+            {
+              "portion": "Plate",
+              "price": 119
+            }
+          ]
         },
         {
-          "name": "Shawarma Plate",
-          "price": 100,
-          "details": "Shawarma served on a plate."
+          "name": "Shawarma with Cheese",
+          "details": "Shawarma roll with melted cheese.",
+          "variants": [
+            {
+              "portion": "Roll",
+              "price": 99
+            },
+            {
+              "portion": "Plate",
+              "price": 129
+            }
+          ]
         },
         {
-          "name": "Shawarma Plate With cheese",
-          "price": 120,
-          "details": "Shawarma served on a plate With melted cheese",
+          "name": "Turkish Shawarma",
+          "details": "Shawarma roll with spicy sauce.",
+          "variants": [
+            {
+              "portion": "Roll",
+              "price": 109
+            },
+            {
+              "portion": "Plate",
+              "price": 139
+            }
+          ]
+        },
+        {
+          "name": "Turkish Cheese Shawarma",
+          "details": "Spicy shawarma served on a plate.",
+          "variants": [
+            {
+              "portion": "Roll",
+              "price": 129
+            },
+            {
+              "portion": "Plate",
+              "price": 159
+            }
+          ]
+        },
+        {
+          "name": "Shawarma Loaded Fries",
+          "price": 129,
+          "details": "Classic shawarma with loaded fries",
           "hidden": false
-        },
-        {
-          "name": "Spicy Shawarma Roll",
-          "price": 90,
-          "details": "Shawarma roll with spicy sauce."
-        },
-        {
-          "name": "Spicy Shawarma Plate",
-          "price": 120,
-          "details": "Spicy shawarma served on a plate."
-        },
-        {
-          "name": "Rumali  Shawarma",
-          "price": 100,
-          "details": "Spicy shawarma in rumali roti."
-        },
-        {
-          "name": "Rumali Shawarma with Cheese",
-          "price": 120,
-          "details": "Rumali shawarma with cheese."
-        },
-        {
-          "name": "Bun Shawarma (Small)",
-          "price": 29,
-          "details": "Small bun shawarma."
-        },
-        {
-          "name": "Bun Shawarma (Large)",
-          "price": 59,
-          "details": "Large bun shawarma."
-        }
-      ]
-    },
-    {
-      "name": "Burgers",
-      "items": [
-        {
-          "name": "Classic Burger",
-          "price": 79,
-          "details": "Classic burger with fresh veggies and sauce."
-        },
-        {
-          "name": "Cheese Burger",
-          "price": 99,
-          "details": "Burger with melted cheese slice."
-        },
-        {
-          "name": "Chicken Burger",
-          "price": 119,
-          "details": "Juicy chicken patty burger."
-        },
-        {
-          "name": "Veg Burger",
-          "price": 69,
-          "details": "Vegetarian burger with crispy patty."
-        },
-        {
-          "name": "Double Patty Burger",
-          "price": 149,
-          "details": "Burger with double meat patties."
-        },
-        {
-          "name": "Spicy Burger",
-          "price": 109,
-          "details": "Spicy burger with special sauce."
         }
       ]
     },
@@ -131,24 +118,20 @@
       "name": "Al-Faham",
       "items": [
         {
-          "name": "Arabic",
-          "details": "Arabic style grilled chicken.",
+          "name": "Normal",
+          "details": "Al-faham grilled chicken.",
           "variants": [
             {
               "portion": "QTR",
-              "price": 119
-            },
-            {
-              "portion": "CHEST",
-              "price": 129
+              "price": 109
             },
             {
               "portion": "HALF",
-              "price": 239
+              "price": 219
             },
             {
               "portion": "FULL",
-              "price": 449
+              "price": 399
             }
           ]
         },
@@ -158,68 +141,20 @@
           "variants": [
             {
               "portion": "QTR",
-              "price": 129
-            },
-            {
-              "portion": "CHEST",
-              "price": 139
+              "price": 119
             },
             {
               "portion": "HALF",
-              "price": 249
+              "price": 239
             },
             {
               "portion": "FULL",
-              "price": 459
+              "price": 439
             }
           ]
         },
         {
-          "name": "Kanthari",
-          "details": "Kanthari style grilled chicken.",
-          "variants": [
-            {
-              "portion": "QTR",
-              "price": 139
-            },
-            {
-              "portion": "CHEST",
-              "price": 149
-            },
-            {
-              "portion": "HALF",
-              "price": 259
-            },
-            {
-              "portion": "FULL",
-              "price": 469
-            }
-          ]
-        },
-        {
-          "name": "Pepper",
-          "details": "Pepper style grilled chicken.",
-          "variants": [
-            {
-              "portion": "QTR",
-              "price": 139
-            },
-            {
-              "portion": "CHEST",
-              "price": 149
-            },
-            {
-              "portion": "HALF",
-              "price": 259
-            },
-            {
-              "portion": "FULL",
-              "price": 469
-            }
-          ]
-        },
-        {
-          "name": "Honey Chilli",
+          "name": "Honey",
           "details": "",
           "hidden": false,
           "variants": [
@@ -228,20 +163,65 @@
               "price": 139
             },
             {
-              "portion": "CHEST",
-              "price": 149
-            },
-            {
               "portion": "HALF",
-              "price": 259
+              "price": 269
             },
             {
               "portion": "FULL",
-              "price": 469
+              "price": 519
             }
           ]
         }
       ]
+    },
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "name": "Chicken Burger",
+          "price": 69,
+          "details": "Juicy chicken patty burger."
+        },
+        {
+          "name": "Cheese Burger",
+          "price": 99,
+          "details": "Burger with melted cheese slice."
+        },
+        {
+          "name": "Double Chicken Burger",
+          "price": 129,
+          "details": "Double chicken burger with crispy patty."
+        },
+        {
+          "name": "Zinger Burger",
+          "price": 99,
+          "details": "Tasty zinger burger"
+        }
+      ]
+    },
+    {
+      "name": "Fries",
+      "items": [
+        {
+          "name": "Loaded Fries",
+          "price": 60,
+          "details": "",
+          "hidden": false
+        },
+        {
+          "name": "Peri Peri Loaded Fries",
+          "price": 80,
+          "details": "",
+          "hidden": false
+        },
+        {
+          "name": "Strips Loaded Fries",
+          "price": 129,
+          "details": "",
+          "hidden": false
+        }
+      ],
+      "hidden": false
     },
     {
       "name": "Roti",
@@ -259,34 +239,91 @@
       ]
     },
     {
-      "name": "French Fries",
+      "name": "Falooda",
       "items": [
         {
-          "name": "Small French Fries",
-          "price": 60,
+          "name": "Classic Falooda",
+          "price": 89,
           "details": "",
           "hidden": false
         },
         {
-          "name": "Big French fries",
-          "price": 120,
+          "name": "Mini Falooda",
+          "price": 69,
           "details": "",
-          "hidden": false
+          "hidden": true
         },
         {
-          "name": "Peri Peri Small French fries",
-          "price": 70,
+          "name": "Chocolate Falooda",
+          "price": 129,
           "details": "",
-          "hidden": false
+          "hidden": true
         },
         {
-          "name": "Peri Peri Big French fries",
-          "price": 130,
+          "name": "Rainbow Falooda",
+          "price": 169,
           "details": "",
-          "hidden": false
+          "hidden": true
+        },
+        {
+          "name": "Black Current Falooda",
+          "price": 149,
+          "details": "",
+          "hidden": true
+        },
+        {
+          "name": "Special Falooda",
+          "price": 129,
+          "details": "",
+          "hidden": true
         }
       ],
       "hidden": false
+    },
+    {
+      "name": "Shakes",
+      "items": [
+        {
+          "name": "Offer Sharjah Milk Shake",
+          "price": 30,
+          "details": "Popular Sharjah milk shake."
+        },
+        {
+          "name": "Special Sharjah Milk Shake",
+          "price": 59,
+          "details": "Popular Sharjah milk shake."
+        },
+        {
+          "name": "Chocolate Shake",
+          "price": 69,
+          "details": "Rich chocolate milkshake."
+        },
+        {
+          "name": "Vanilla Shake",
+          "price": 59,
+          "details": "Classic vanilla milkshake."
+        },
+        {
+          "name": "Strawberry Shake",
+          "price": 69,
+          "details": "Fresh strawberry milkshake."
+        },
+        {
+          "name": "Oreo Shake",
+          "price": 59,
+          "details": "Oreo cookie milkshake."
+        },
+        {
+          "name": "Mango Shake",
+          "price": 59,
+          "details": "Fresh mango milkshake."
+        },
+        {
+          "name": "Banana Shake",
+          "price": 49,
+          "details": "Banana milkshake."
+        }
+      ]
     },
     {
       "name": "Drinks",
@@ -342,105 +379,6 @@
           "details": "Classic Mint lemon soda."
         }
       ]
-    },
-    {
-      "name": "Shakes",
-      "items": [
-        {
-          "name": "Offer Sharjah Milk Shake",
-          "price": 30,
-          "details": "Popular Sharjah milk shake."
-        },
-        {
-          "name": "Special Sharjah Milk Shake",
-          "price": 59,
-          "details": "Popular Sharjah milk shake."
-        },
-        {
-          "name": "Chocolate Shake",
-          "price": 69,
-          "details": "Rich chocolate milkshake."
-        },
-        {
-          "name": "Vanilla Shake",
-          "price": 59,
-          "details": "Classic vanilla milkshake."
-        },
-        {
-          "name": "Strawberry Shake",
-          "price": 69,
-          "details": "Fresh strawberry milkshake."
-        },
-        {
-          "name": "Oreo Shake",
-          "price": 59,
-          "details": "Oreo cookie milkshake."
-        },
-        {
-          "name": "Mango Shake",
-          "price": 59,
-          "details": "Fresh mango milkshake."
-        },
-        {
-          "name": "Banana Shake",
-          "price": 49,
-          "details": "Banana milkshake."
-        }
-      ]
-    },
-    {
-      "name": "Falooda",
-      "items": [
-        {
-          "name": "Classic Falooda",
-          "price": 99,
-          "details": "",
-          "hidden": false
-        },
-        {
-          "name": "Mini Falooda",
-          "price": 69,
-          "details": "",
-          "hidden": false
-        },
-        {
-          "name": "Chocolate Falooda",
-          "price": 129,
-          "details": "",
-          "hidden": false
-        },
-        {
-          "name": "Rainbow Falooda",
-          "price": 169,
-          "details": "",
-          "hidden": false
-        },
-        {
-          "name": "Black Current Falooda",
-          "price": 149,
-          "details": "",
-          "hidden": false
-        },
-        {
-          "name": "Special Falooda",
-          "price": 139,
-          "details": "",
-          "hidden": false
-        }
-      ],
-      "hidden": false
-    },
-    {
-      "name": "Avil Milk",
-      "items": [
-        {
-          "name": "",
-          "price": 60,
-          "details": "Normal Aval Milk",
-          "hidden": false
-        }
-      ],
-      "hidden": false
     }
   ]
 }

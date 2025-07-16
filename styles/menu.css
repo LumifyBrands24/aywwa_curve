@@ -251,4 +251,34 @@ a {
     color: #f5e9d7;
     background: #18120c;
     font-weight: 500;
+}
+/* Variant Table Styling for Menu Cards */
+.variants-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+    background: #23180f;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 8px rgba(255,215,0,0.08);
+    border: 1.5px solid #ffd700;
+}
+.variants-table th, .variants-table td {
+    padding: 0.45em 0.7em;
+    text-align: center;
+    font-size: 1.05rem;
+    border-bottom: 1px solid #b77b2b;
+}
+.variants-table th {
+    color: #ffd700;
+    font-weight: 600;
+    background: #2d1c0b;
+    border-radius: 6px 6px 0 0;
+    letter-spacing: 1px;
+}
+.variants-table td {
+    color: #ffb300;
+    background: #18120c;
+    font-weight: 500;
 } 

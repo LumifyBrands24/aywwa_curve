@@ -104,15 +104,39 @@ async function loadMenu() {
                     card.className = 'menu-card';
                     const title = document.createElement('h3');
                     title.textContent = item.name;
-                    const price = document.createElement('div');
-                    price.className = 'price';
-                    price.textContent = `₹${item.price}`;
-                    const details = document.createElement('div');
-                    details.className = 'details';
-                    details.textContent = item.details;
                     card.appendChild(title);
-                    card.appendChild(price);
-                    card.appendChild(details);
+                    if (item.details) {
+                        const details = document.createElement('div');
+                        details.className = 'details';
+                        details.textContent = item.details;
+                        card.appendChild(details);
+                    }
+                    if (item.variants && Array.isArray(item.variants)) {
+                        // Render variants as a table
+                        const table = document.createElement('table');
+                        table.className = 'variants-table';
+                        const tr = document.createElement('tr');
+                        item.variants.forEach(variant => {
+                            const th = document.createElement('th');
+                            th.textContent = variant.portion;
+                            tr.appendChild(th);
+                        });
+                        table.appendChild(tr);
+                        const tr2 = document.createElement('tr');
+                        item.variants.forEach(variant => {
+                            const td = document.createElement('td');
+                            td.textContent = `₹${variant.price}`;
+                            tr2.appendChild(td);
+                        });
+                        table.appendChild(tr2);
+                        card.appendChild(table);
+                    } else if (typeof item.price !== 'undefined') {
+                        // Render single price
+                        const price = document.createElement('div');
+                        price.className = 'price';
+                        price.textContent = `₹${item.price}`;
+                        card.appendChild(price);
+                    }
                     cardsDiv.appendChild(card);
                 });
                 sectionDiv.appendChild(cardsDiv);
