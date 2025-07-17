@@ -113,12 +113,6 @@
               "price": 169
             }
           ]
-        },
-        {
-          "name": "Shawarma Loaded Fries",
-          "price": 129,
-          "details": "Classic shawarma with loaded fries",
-          "hidden": false
         }
       ]
     },
@@ -226,6 +220,12 @@
           "name": "Strips Loaded Fries",
           "price": 129,
           "details": "",
+          "hidden": false
+        },
+        {
+          "name": "Shawarma Loaded Fries",
+          "price": 129,
+          "details": "Classic shawarma with loaded fries",
           "hidden": false
         }
       ],
