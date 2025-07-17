@@ -60,7 +60,11 @@
             },
             {
               "portion": "Plate",
-              "price": 119
+              "price": 99
+            },
+            {
+              "portion": "Full Meet",
+              "price": 129
             }
           ]
         },
@@ -80,7 +84,7 @@
         },
         {
           "name": "Turkish Shawarma",
-          "details": "Shawarma roll with spicy sauce.",
+          "details": "Rumali  roll with spicy Chicken ",
           "variants": [
             {
               "portion": "Roll",
@@ -89,6 +93,10 @@
             {
               "portion": "Plate",
               "price": 139
+            },
+            {
+              "portion": "Full meet",
+              "price": 169
             }
           ]
         },
@@ -98,11 +106,11 @@
           "variants": [
             {
               "portion": "Roll",
-              "price": 129
+              "price": 139
             },
             {
               "portion": "Plate",
-              "price": 159
+              "price": 169
             }
           ]
         },
@@ -123,15 +131,15 @@
           "variants": [
             {
               "portion": "QTR",
-              "price": 109
+              "price": 119
             },
             {
               "portion": "HALF",
-              "price": 219
+              "price": 229
             },
             {
               "portion": "FULL",
-              "price": 399
+              "price": 449
             }
           ]
         },
@@ -141,7 +149,7 @@
           "variants": [
             {
               "portion": "QTR",
-              "price": 119
+              "price": 129
             },
             {
               "portion": "HALF",
@@ -149,26 +157,26 @@
             },
             {
               "portion": "FULL",
-              "price": 439
+              "price": 459
             }
           ]
         },
         {
-          "name": "Honey",
-          "details": "",
+          "name": "Honey-Chilly",
+          "details": "Grilled Chicken with combination of Honey & Chilly",
           "hidden": false,
           "variants": [
             {
               "portion": "QTR",
-              "price": 139
+              "price": 129
             },
             {
               "portion": "HALF",
-              "price": 269
+              "price": 239
             },
             {
               "portion": "FULL",
-              "price": 519
+              "price": 499
             }
           ]
         }
@@ -233,7 +241,7 @@
         },
         {
           "name": "Kuboos",
-          "price": 8,
+          "price": 10,
           "details": "Traditional kuboos bread."
         }
       ]
@@ -242,32 +250,26 @@
       "name": "Falooda",
       "items": [
         {
-          "name": "Classic Falooda",
+          "name": "Fruits Salad",
+          "price": 49,
+          "details": "",
+          "hidden": false
+        },
+        {
+          "name": "Fruits Salad with Ice - Cream",
+          "price": 69,
+          "details": "",
+          "hidden": false
+        },
+        {
+          "name": "Normal Falooda",
           "price": 89,
           "details": "",
           "hidden": false
         },
         {
-          "name": "Mini Falooda",
-          "price": 69,
-          "details": "",
-          "hidden": true
-        },
-        {
           "name": "Chocolate Falooda",
-          "price": 129,
-          "details": "",
-          "hidden": true
-        },
-        {
-          "name": "Rainbow Falooda",
-          "price": 169,
-          "details": "",
-          "hidden": true
-        },
-        {
-          "name": "Black Current Falooda",
-          "price": 149,
+          "price": 119,
           "details": "",
           "hidden": true
         },
@@ -285,28 +287,24 @@
       "items": [
         {
           "name": "Offer Sharjah Milk Shake",
-          "price": 30,
+          "price": 29,
           "details": "Popular Sharjah milk shake."
         },
         {
           "name": "Special Sharjah Milk Shake",
-          "price": 59,
+          "price": 69,
           "details": "Popular Sharjah milk shake."
         },
         {
-          "name": "Chocolate Shake",
-          "price": 69,
-          "details": "Rich chocolate milkshake."
+          "name": "Banana Shake",
+          "price": 49,
+          "details": "Banana milkshake."
         },
         {
-          "name": "Vanilla Shake",
+          "name": "KitKat Shake",
           "price": 59,
-          "details": "Classic vanilla milkshake."
-        },
-        {
-          "name": "Strawberry Shake",
-          "price": 69,
-          "details": "Fresh strawberry milkshake."
+          "details": "KitKat Milkshake",
+          "hidden": false
         },
         {
           "name": "Oreo Shake",
@@ -314,14 +312,31 @@
           "details": "Oreo cookie milkshake."
         },
         {
-          "name": "Mango Shake",
+          "name": "Pappaya Shake",
           "price": 59,
+          "details": "Pappaya Milkshake",
+          "hidden": false
+        },
+        {
+          "name": "Mango Shake",
+          "price": 69,
           "details": "Fresh mango milkshake."
         },
         {
-          "name": "Banana Shake",
-          "price": 49,
-          "details": "Banana milkshake."
+          "name": "Vanilla Shake",
+          "price": 69,
+          "details": "Classic vanilla milkshake."
+        },
+        {
+          "name": "Chocolate Shake",
+          "price": 79,
+          "details": "Rich chocolate milkshake."
+        },
+        {
+          "name": "Kannur cocktail ",
+          "price": 69,
+          "details": "Kannur Style Cocktail ",
+          "hidden": false
         }
       ]
     },
@@ -329,14 +344,20 @@
       "name": "Drinks",
       "items": [
         {
+          "name": "Water melon Juice",
+          "price": 39,
+          "details": "Fresh water melon juice."
+        },
+        {
           "name": "Orange Juice",
           "price": 49,
           "details": "Fresh orange juice."
         },
         {
-          "name": "Apple Juice",
-          "price": 79,
-          "details": "Fresh apple juice."
+          "name": "Grape Juice ",
+          "price": 49,
+          "details": "Fresh Grape Juice",
+          "hidden": false
         },
         {
           "name": "Pineapple Juice",
@@ -344,19 +365,26 @@
           "details": "Fresh pineapple juice."
         },
         {
+          "name": "Carrot Juice",
+          "price": 59,
+          "details": "Fresh carrot juice.",
+          "hidden": true
+        },
+        {
+          "name": "Pappaya Juice",
+          "price": 69,
+          "details": "Fresh Pappaya Juice ",
+          "hidden": false
+        },
+        {
+          "name": "Apple Juice",
+          "price": 79,
+          "details": "Fresh apple juice."
+        },
+        {
           "name": "Anaar Juice",
           "price": 119,
           "details": "Fresh mango juice."
-        },
-        {
-          "name": "Carrot Juice",
-          "price": 59,
-          "details": "Fresh carrot juice."
-        },
-        {
-          "name": "Water melon Juice",
-          "price": 39,
-          "details": "Fresh water melon juice."
         }
       ]
     },
@@ -365,20 +393,93 @@
       "items": [
         {
           "name": "Fresh Lime",
-          "price": 20,
+          "price": 25,
           "details": "Refreshing fresh lime drink."
         },
         {
-          "name": "Lemon-Lime Soda",
-          "price": 25,
-          "details": "Refreshing lemon-lime soda."
+          "name": "Mint Lime",
+          "price": 29,
+          "details": "Classic Mint lemon "
         },
         {
-          "name": "Mint Lime Soda",
-          "price": 30,
-          "details": "Classic Mint lemon soda."
+          "name": "Grape Lime",
+          "price": 29,
+          "details": " Grape lemon",
+          "hidden": false
+        },
+        {
+          "name": "Pineapple Lime",
+          "price": 29,
+          "details": "",
+          "hidden": false
         }
       ]
+    },
+    {
+      "name": "Ice - Cream Scoops",
+      "items": [
+        {
+          "name": "Vanilla",
+          "details": "",
+          "hidden": false,
+          "variants": [
+            {
+              "portion": "Single Scoop",
+              "price": 39
+            },
+            {
+              "portion": "Double Scoop",
+              "price": 79
+            }
+          ]
+        },
+        {
+          "name": "Chocolate ",
+          "details": "",
+          "hidden": false,
+          "variants": [
+            {
+              "portion": "Single Scoop",
+              "price": 49
+            },
+            {
+              "portion": "Double Scoop",
+              "price": 89
+            }
+          ]
+        },
+        {
+          "name": "Butterscotch ",
+          "details": "",
+          "hidden": false,
+          "variants": [
+            {
+              "portion": "Single Scoop",
+              "price": 49
+            },
+            {
+              "portion": "Double Scoop",
+              "price": 89
+            }
+          ]
+        },
+        {
+          "name": "Strawberry ",
+          "details": "",
+          "hidden": false,
+          "variants": [
+            {
+              "portion": "Single Scoop",
+              "price": 39
+            },
+            {
+              "portion": "Double Scoop",
+              "price": 79
+            }
+          ]
+        }
+      ],
+      "hidden": false
     }
   ]
 }
