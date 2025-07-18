@@ -181,22 +181,22 @@
       "items": [
         {
           "name": "Chicken Burger",
-          "price": 69,
+          "price": 59,
           "details": "Juicy chicken patty burger."
         },
         {
           "name": "Cheese Burger",
-          "price": 99,
+          "price": 89,
           "details": "Burger with melted cheese slice."
         },
         {
           "name": "Double Chicken Burger",
-          "price": 129,
+          "price": 119,
           "details": "Double chicken burger with crispy patty."
         },
         {
           "name": "Zinger Burger",
-          "price": 99,
+          "price": 89,
           "details": "Tasty zinger burger"
         }
       ]
@@ -292,7 +292,7 @@
         },
         {
           "name": "Special Sharjah Milk Shake",
-          "price": 69,
+          "price": 59,
           "details": "Popular Sharjah milk shake."
         },
         {
@@ -302,13 +302,13 @@
         },
         {
           "name": "KitKat Shake",
-          "price": 59,
+          "price": 79,
           "details": "KitKat Milkshake",
           "hidden": false
         },
         {
           "name": "Oreo Shake",
-          "price": 59,
+          "price": 79,
           "details": "Oreo cookie milkshake."
         },
         {
