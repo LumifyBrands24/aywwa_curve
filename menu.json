@@ -227,6 +227,12 @@
           "price": 129,
           "details": "Classic shawarma with loaded fries",
           "hidden": false
+        },
+        {
+          "name": "French Fries ",
+          "price": 70,
+          "details": "Classic fries",
+          "hidden": false
         }
       ],
       "hidden": false
