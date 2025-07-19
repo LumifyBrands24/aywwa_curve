@@ -60,7 +60,7 @@
             },
             {
               "portion": "Plate",
-              "price": 99
+              "price": 109
             },
             {
               "portion": "Full Meet",
@@ -181,22 +181,23 @@
       "items": [
         {
           "name": "Chicken Burger",
-          "price": 59,
+          "price": 50,
           "details": "Juicy chicken patty burger."
         },
         {
           "name": "Cheese Burger",
-          "price": 89,
+          "price": 69,
           "details": "Burger with melted cheese slice."
         },
         {
           "name": "Double Chicken Burger",
-          "price": 119,
-          "details": "Double chicken burger with crispy patty."
+          "price": 0,
+          "details": "Double chicken burger with crispy patty.",
+          "hidden": true
         },
         {
           "name": "Zinger Burger",
-          "price": 89,
+          "price": 99,
           "details": "Tasty zinger burger"
         }
       ]
@@ -208,6 +209,12 @@
           "name": "Loaded Fries",
           "price": 60,
           "details": "",
+          "hidden": false
+        },
+        {
+          "name": "French Fries ",
+          "price": 70,
+          "details": "Classic fries",
           "hidden": false
         },
         {
@@ -226,12 +233,6 @@
           "name": "Shawarma Loaded Fries",
           "price": 129,
           "details": "Classic shawarma with loaded fries",
-          "hidden": false
-        },
-        {
-          "name": "French Fries ",
-          "price": 70,
-          "details": "Classic fries",
           "hidden": false
         }
       ],
