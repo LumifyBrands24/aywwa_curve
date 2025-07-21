@@ -113,6 +113,21 @@
               "price": 169
             }
           ]
+        },
+        {
+          "name": "Aywwa Special Roll",
+          "details": "Spl Roll",
+          "hidden": false,
+          "variants": [
+            {
+              "portion": "Roll",
+              "price": 140
+            },
+            {
+              "portion": "Plate",
+              "price": 170
+            }
+          ]
         }
       ]
     },
