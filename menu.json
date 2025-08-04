@@ -11,8 +11,9 @@
         },
         {
           "name": "Students Combo (1 Mini Shawarma + 1 Cocktail)",
-          "price": 89,
-          "details": "1 mini shawarma and 1 cocktail."
+          "price": 79,
+          "details": "1 mini shawarma and 1 Sharjah",
+          "hidden": true
         },
         {
           "name": "Couple Combo (2 Shawarma + 2 Sharjah)",
@@ -26,12 +27,12 @@
         },
         {
           "name": "Shawarma Combo",
-          "price": 129,
-          "details": "1 chicken shawarma and 1 fries and 1 grape juice"
+          "price": 149,
+          "details": "1 chicken shawarma and 1 fries and 1 grape Lime"
         },
         {
-          "name": "Strip fries & Cocktail",
-          "price": 139,
+          "name": "Loaded fries & Cocktail",
+          "price": 169,
           "details": "Strip loaded fries and cocktail drink."
         }
       ]
@@ -121,11 +122,11 @@
           "variants": [
             {
               "portion": "Roll",
-              "price": 140
+              "price": 139
             },
             {
               "portion": "Plate",
-              "price": 170
+              "price": 169
             }
           ]
         }
@@ -144,7 +145,7 @@
             },
             {
               "portion": "HALF",
-              "price": 229
+              "price": 239
             },
             {
               "portion": "FULL",
@@ -162,11 +163,30 @@
             },
             {
               "portion": "HALF",
-              "price": 239
+              "price": 259
             },
             {
               "portion": "FULL",
-              "price": 459
+              "price": 499
+            }
+          ]
+        },
+        {
+          "name": "Pepper BBQ",
+          "details": "Grilled Chicken with Pepper",
+          "hidden": false,
+          "variants": [
+            {
+              "portion": "QTR",
+              "price": 129
+            },
+            {
+              "portion": "HALF",
+              "price": 259
+            },
+            {
+              "portion": "Full",
+              "price": 499
             }
           ]
         },
@@ -177,15 +197,34 @@
           "variants": [
             {
               "portion": "QTR",
-              "price": 129
+              "price": 139
             },
             {
               "portion": "HALF",
-              "price": 239
+              "price": 279
             },
             {
               "portion": "FULL",
-              "price": 499
+              "price": 549
+            }
+          ]
+        },
+        {
+          "name": "Cheese Al - Faham",
+          "details": "Grilled Chicken with Melted Cheese",
+          "hidden": false,
+          "variants": [
+            {
+              "portion": "QTR",
+              "price": 139
+            },
+            {
+              "portion": "HALF",
+              "price": 279
+            },
+            {
+              "portion": "FULL",
+              "price": 549
             }
           ]
         }
@@ -196,11 +235,11 @@
       "items": [
         {
           "name": "Chicken Burger",
-          "price": 50,
+          "price": 49,
           "details": "Juicy chicken patty burger."
         },
         {
-          "name": "Cheese Burger",
+          "name": "Classic Burger",
           "price": 69,
           "details": "Burger with melted cheese slice."
         },
@@ -221,26 +260,20 @@
       "name": "Fries",
       "items": [
         {
-          "name": "Loaded Fries",
-          "price": 60,
-          "details": "",
-          "hidden": false
-        },
-        {
           "name": "French Fries ",
-          "price": 70,
+          "price": 69,
           "details": "Classic fries",
           "hidden": false
         },
         {
-          "name": "Peri Peri Loaded Fries",
-          "price": 80,
-          "details": "",
+          "name": "Loaded Fries",
+          "price": 129,
+          "details": "Chicken  + Fries ",
           "hidden": false
         },
         {
-          "name": "Strips Loaded Fries",
-          "price": 129,
+          "name": "Peri Peri Fries",
+          "price": 89,
           "details": "",
           "hidden": false
         },
@@ -248,7 +281,7 @@
           "name": "Shawarma Loaded Fries",
           "price": 129,
           "details": "Classic shawarma with loaded fries",
-          "hidden": false
+          "hidden": true
         }
       ],
       "hidden": false
@@ -269,40 +302,87 @@
       ]
     },
     {
-      "name": "Falooda",
+      "name": "Lemonade",
       "items": [
         {
-          "name": "Fruits Salad",
-          "price": 49,
+          "name": "Fresh Lime",
+          "price": 19,
+          "details": "Refreshing fresh lime drink."
+        },
+        {
+          "name": "Mint Lime",
+          "price": 29,
+          "details": "Classic Mint lemon "
+        },
+        {
+          "name": "Grape Lime",
+          "price": 29,
+          "details": " Grape lemon",
+          "hidden": false
+        },
+        {
+          "name": "Pineapple Lime",
+          "price": 29,
           "details": "",
           "hidden": false
         },
         {
-          "name": "Fruits Salad with Ice - Cream",
-          "price": 69,
+          "name": "Ginger Lime",
+          "price": 29,
           "details": "",
           "hidden": false
-        },
-        {
-          "name": "Normal Falooda",
-          "price": 89,
-          "details": "",
-          "hidden": false
-        },
-        {
-          "name": "Chocolate Falooda",
-          "price": 119,
-          "details": "",
-          "hidden": true
-        },
-        {
-          "name": "Special Falooda",
-          "price": 129,
-          "details": "",
-          "hidden": true
         }
-      ],
-      "hidden": false
+      ]
+    },
+    {
+      "name": "Juices",
+      "items": [
+        {
+          "name": "Water melon Juice",
+          "price": 39,
+          "details": "Fresh water melon juice."
+        },
+        {
+          "name": "Orange Juice",
+          "price": 49,
+          "details": "Fresh orange juice.",
+          "hidden": true
+        },
+        {
+          "name": "Grape Juice ",
+          "price": 49,
+          "details": "Fresh Grape Juice",
+          "hidden": false
+        },
+        {
+          "name": "Pineapple Juice",
+          "price": 49,
+          "details": "Fresh pineapple juice."
+        },
+        {
+          "name": "Carrot Juice",
+          "price": 59,
+          "details": "Fresh carrot juice.",
+          "hidden": true
+        },
+        {
+          "name": "Pappaya Juice",
+          "price": 69,
+          "details": "Fresh Pappaya Juice ",
+          "hidden": false
+        },
+        {
+          "name": "Apple Juice",
+          "price": 79,
+          "details": "Fresh apple juice.",
+          "hidden": true
+        },
+        {
+          "name": "Anaar Juice",
+          "price": 119,
+          "details": "Fresh mango juice."
+        }
+      ]
     },
     {
       "name": "Shakes",
@@ -314,7 +394,7 @@
         },
         {
           "name": "Special Sharjah Milk Shake",
-          "price": 59,
+          "price": 49,
           "details": "Popular Sharjah milk shake."
         },
         {
@@ -356,86 +436,47 @@
         },
         {
           "name": "Kannur cocktail ",
-          "price": 69,
+          "price": 89,
           "details": "Kannur Style Cocktail ",
           "hidden": false
         }
       ]
     },
     {
-      "name": "Drinks",
+      "name": "Falooda",
       "items": [
         {
-          "name": "Water melon Juice",
-          "price": 39,
-          "details": "Fresh water melon juice."
-        },
-        {
-          "name": "Orange Juice",
+          "name": "Fruits Salad",
           "price": 49,
-          "details": "Fresh orange juice."
-        },
-        {
-          "name": "Grape Juice ",
-          "price": 49,
-          "details": "Fresh Grape Juice",
+          "details": "",
           "hidden": false
         },
         {
-          "name": "Pineapple Juice",
-          "price": 49,
-          "details": "Fresh pineapple juice."
+          "name": "Fruits Salad with Ice - Cream",
+          "price": 69,
+          "details": "",
+          "hidden": false
         },
         {
-          "name": "Carrot Juice",
-          "price": 59,
-          "details": "Fresh carrot juice.",
+          "name": "Normal Falooda",
+          "price": 89,
+          "details": "",
+          "hidden": false
+        },
+        {
+          "name": "Royal Falooda",
+          "price": 109,
+          "details": "",
           "hidden": true
         },
         {
-          "name": "Pappaya Juice",
-          "price": 69,
-          "details": "Fresh Pappaya Juice ",
-          "hidden": false
-        },
-        {
-          "name": "Apple Juice",
-          "price": 79,
-          "details": "Fresh apple juice."
-        },
-        {
-          "name": "Anaar Juice",
-          "price": 119,
-          "details": "Fresh mango juice."
-        }
-      ]
-    },
-    {
-      "name": "Soft Drinks",
-      "items": [
-        {
-          "name": "Fresh Lime",
-          "price": 25,
-          "details": "Refreshing fresh lime drink."
-        },
-        {
-          "name": "Mint Lime",
-          "price": 29,
-          "details": "Classic Mint lemon "
-        },
-        {
-          "name": "Grape Lime",
-          "price": 29,
-          "details": " Grape lemon",
-          "hidden": false
-        },
-        {
-          "name": "Pineapple Lime",
-          "price": 29,
+          "name": "Aywwa Falooda",
+          "price": 129,
           "details": "",
-          "hidden": false
+          "hidden": true
         }
-      ]
+      ],
+      "hidden": false
     },
     {
       "name": "Ice - Cream Scoops",
@@ -501,7 +542,7 @@
           ]
         }
       ],
-      "hidden": false
+      "hidden": true
     }
   ]
 }
